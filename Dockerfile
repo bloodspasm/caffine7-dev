@@ -12,7 +12,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # RUN usermod -u 1000 www-data
 
 # generate locale
-RUN locale-gen en_US.UTF-8
+# RUN locale-gen en_US.UTF-8
 
 # add php7 repo
 RUN apt-get install -y 	openssh-server software-properties-common mysql-server mysql-client nginx \
